@@ -5,9 +5,7 @@ def msort3(x):
     if len(x) < 2:
         return x
     mid = int(len(x)/2)
-    print 'Calling Mergesort(1/2*n, Data[1...n]) with first half of data'
     y = msort3(x[:mid])
-    print 'Calling Mergesort(n, Data[1/2...n]) with second half of data'
     z = msort3(x[mid:])
     i = 0
     j = 0
@@ -25,4 +23,4 @@ def msort3(x):
 
 if __name__ == '__main__':
     result = msort3(array_x)
-    print result
+    print array_x

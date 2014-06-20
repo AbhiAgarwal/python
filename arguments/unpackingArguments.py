@@ -7,7 +7,7 @@ a = (2, 3) # tuple
 b = {'x': 2, 'y': 3} # dictionary
 c = [2, 3] # lists
 
-func(*a)
+func(*a) # * known as the splat operator
 func(*b) # thats 'x' or 'y'
 func(**b) # thats '2' or '3'
 func(*c)

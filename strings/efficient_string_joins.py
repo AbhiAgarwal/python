@@ -1,5 +1,5 @@
 # http://www.skymind.com/~ocrow/python_string/
-
+# method6 is the most efficient (in tested speed)
 loop_count = 30
 
 def method1(): # Naive appending
